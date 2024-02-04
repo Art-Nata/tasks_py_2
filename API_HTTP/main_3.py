@@ -32,9 +32,7 @@ def find_biz(ll, spn, biz):
         return organizations[0]
 
 print(111)
-list_adress = sys.argv[1:]
-print(list_adress)
-adress = " ".join(list_adress)
+adress = " ".join(sys.argv[1:])
 print(adress)
 toponym_adress = read_toponym(adress)
 print(toponym_adress)
