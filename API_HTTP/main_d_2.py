@@ -36,7 +36,7 @@ def main():
         print('Ошибка выполнения запроса')
         exit(2)
 
-    toponim_district = toponym["metaDataProperty"]["GeocoderMetaData"]["kind"]
+    toponim_district = toponym["metaDataProperty"]["GeocoderMetaData"]['Components'][-1]['name']
     print(toponim_district)
 
 
