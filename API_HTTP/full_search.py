@@ -4,7 +4,7 @@ from io import BytesIO
 import requests
 from PIL import Image
 
-from param_map import param_ll_spn
+from API_HTTP.param_map import param_ll_spn
 
 # Пусть наше приложение предполагает запуск:
 # python file.py Москва, ул. Ак. Королева, 12
